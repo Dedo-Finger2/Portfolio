@@ -1,9 +1,9 @@
 import RightSection from "../RightSection/Section";
 import RightSectionTitle from "../RightSection/Title";
-import SkillGroupItems from "../SkillGroupItems";
-import SkillGroupSection from "../SkillGroupSection";
-import SkillGroupTitle from "../SkillGroupTitle";
-import SkillItem from "../SkillItem";
+import SkillGroupItems from "./GroupItems";
+import SkillGroupSection from "./GroupSection";
+import SkillGroupTitle from "./GroupTitle";
+import SkillItem from "./Item";
 
 export default function Skills() {
   return (

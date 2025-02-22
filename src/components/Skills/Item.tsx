@@ -1,4 +1,4 @@
-import SkillAlert from "./SkillAlert";
+import SkillAlert from "./Alert";
 
 interface SkillItemProps {
   children: string;

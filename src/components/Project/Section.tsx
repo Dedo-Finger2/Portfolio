@@ -1,7 +1,7 @@
 import ProjectCard from "../ProjectCard";
 import RightSection from "../RightSection/Section";
 import RightSectionTitle from "../RightSection/Title";
-import SkillItem from "../SkillItem";
+import SkillItem from "../Skills/Item";
 
 export default function Section() {
   return (
