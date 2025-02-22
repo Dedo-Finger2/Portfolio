@@ -1,5 +1,6 @@
 import Card from "../Card/Section";
 import CardInfo from "../Card/Info";
+import CardHeader from "../Card/CardHeader";
 import CardTitle from "../Card/Title";
 import CardDescription from "../Card/Description";
 import CardTimeFrame from "../Card/TimeFrame";
@@ -22,20 +23,22 @@ export default function Section() {
         <Image src="https://picsum.photos/200" />
 
         <CardInfo>
-          <CardTitle>Análise e Desenvolvimento de Sistemas </CardTitle>
-          <CardDescription>SENAI CIMATEC, BAHIA, Camaçari</CardDescription>
-          <CardTimeFrame>Agosto 2022 - Dezembro 2023</CardTimeFrame>
+          <CardHeader>
+            <CardTitle>Análise e Desenvolvimento de Sistemas </CardTitle>
+            <CardDescription>SENAI CIMATEC, BAHIA, Camaçari</CardDescription>
+            <CardTimeFrame>Agosto 2022 - Dezembro 2023</CardTimeFrame>
+          </CardHeader>
+
+          <CardActivitiesList>
+            <li>Opa</li>
+          </CardActivitiesList>
+
+          <CardSkillsList>
+            <SkillItem color="red">TypeScript</SkillItem>
+          </CardSkillsList>
+
+          <ProjectUrlList repositoryUrl="" demoUrl="a" />
         </CardInfo>
-
-        <CardActivitiesList>
-          <li>Opa</li>
-        </CardActivitiesList>
-
-        <CardSkillsList>
-          <SkillItem color="red">TypeScript</SkillItem>
-        </CardSkillsList>
-
-        <ProjectUrlList repositoryUrl="" demoUrl="a" />
       </Card>
     </RightSection>
   );
