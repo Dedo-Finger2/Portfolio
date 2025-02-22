@@ -7,7 +7,7 @@ interface Props {
 
 export default function ProjectUrlList({ repositoryUrl, demoUrl }: Props) {
   return (
-    <div className="flex justify-between gap-4">
+    <div className="flex justify-between gap-4 xl:justify-start">
       <a
         href={repositoryUrl}
         target="_blank"

@@ -11,7 +11,7 @@ import mySelfie from "./../assets/minha-foto.jpg";
 
 export default function QuickAboutMe() {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 xl:w-300">
       <div className="flex flex-col gap-4">
         {/* Image + Personal info */}
         <div className="flex flex-col gap-4 items-center sm:items-start">

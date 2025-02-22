@@ -7,11 +7,11 @@ import ProjectsSection from "./components/Project/Section";
 
 export default function App() {
   return (
-    <div className="flex flex-col px-6 py-6 gap-24 mb-6 sm:px-12 sm:py-12">
+    <div className="flex flex-col px-6 py-6 gap-24 mb-6 sm:px-12 sm:py-12 xl:flex-row xl:h-dvh xl:overflow-y-hidden xl:mb-0 xl:px-24">
       {/* Left Side (Quick info) */}
       <QuickAboutMe />
       {/* Right Side (Large info) */}
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-12 xl:overflow-auto">
         {/* About me */}
         <AboutSection />
         {/* Skills */}
