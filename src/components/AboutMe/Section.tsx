@@ -1,8 +1,10 @@
-import RightSection from "../RightSection";
+import RightSection from "../RightSection/Section";
+import RightSectionTitle from "../RightSection/Title";
 
 export default function Section() {
   return (
-    <RightSection title="Sobre Mim">
+    <RightSection>
+      <RightSectionTitle>Sobre mim</RightSectionTitle>
       <p className="text-zinc-200 text-sm/6">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi hic
         impedit inventore soluta saepe modi assumenda alias neque molestiae

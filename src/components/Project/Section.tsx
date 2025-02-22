@@ -1,10 +1,12 @@
 import ProjectCard from "../ProjectCard";
-import RightSection from "../RightSection";
+import RightSection from "../RightSection/Section";
+import RightSectionTitle from "../RightSection/Title";
 import SkillItem from "../SkillItem";
 
 export default function Section() {
   return (
-    <RightSection title="Projetos">
+    <RightSection>
+      <RightSectionTitle>Projetos</RightSectionTitle>
       <div className="flex flex-col gap-12">
         <ProjectCard
           title="Análise e Desenvolvimento de Sistemas"
