@@ -1,4 +1,5 @@
-import { RightSection } from "../RightSection";
+import RightSection from "../RightSection/Section";
+import RightSectionTitle from "../RightSection/Title";
 import SkillGroupItems from "../SkillGroupItems";
 import SkillGroupSection from "../SkillGroupSection";
 import SkillGroupTitle from "../SkillGroupTitle";
@@ -6,7 +7,8 @@ import SkillItem from "../SkillItem";
 
 export default function Skills() {
   return (
-    <RightSection title="Skills">
+    <RightSection>
+      <RightSectionTitle>Skills</RightSectionTitle>
       <SkillGroupSection>
         <SkillGroupTitle>Linguagens de programação</SkillGroupTitle>
         <SkillGroupItems>
