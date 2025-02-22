@@ -1,4 +1,4 @@
-import { RightSection } from "../Section";
+import RightSection from "../RightSection";
 
 export default function Section() {
   return (

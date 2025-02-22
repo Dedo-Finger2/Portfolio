@@ -1,5 +1,5 @@
 import ExperienceCard from "../ExperienceCard";
-import { RightSection } from "../Section";
+import RightSection from "../RightSection";
 import SkillItem from "../SkillItem";
 
 export default function Section() {

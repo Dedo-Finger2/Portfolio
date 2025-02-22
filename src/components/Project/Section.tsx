@@ -1,5 +1,5 @@
 import ProjectCard from "../ProjectCard";
-import { RightSection } from "../Section";
+import RightSection from "../RightSection";
 import SkillItem from "../SkillItem";
 
 export default function Section() {

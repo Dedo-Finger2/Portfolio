@@ -1,4 +1,4 @@
-import { RightSection } from "../Section";
+import { RightSection } from "../RightSection";
 import SkillGroupItems from "../SkillGroupItems";
 import SkillGroupSection from "../SkillGroupSection";
 import SkillGroupTitle from "../SkillGroupTitle";
