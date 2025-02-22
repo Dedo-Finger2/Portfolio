@@ -14,7 +14,7 @@ export default function QuickAboutMe() {
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-4">
         {/* Image + Personal info */}
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col gap-4 items-center sm:items-start">
           {/* My Image */}
           <img
             className="shadow-lg shadow-zinc-600 rounded-full size-32 h-auto"
@@ -23,25 +23,25 @@ export default function QuickAboutMe() {
           />
           {/* My name + What I do */}
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl font-bold text-center">
+            <h1 className="text-2xl font-bold text-center sm:text-left">
               Antonio Mauricio de Almeida Neto
             </h1>
-            <h2 className="text-zinc-400 font-semibold text-center">
+            <h2 className="text-zinc-400 font-semibold text-center sm:text-left">
               Full-Stack Developer
             </h2>
           </div>
         </div>
         {/* Where I live */}
-        <div className="flex items-center gap-2 text-zinc-200 font-medium justify-center">
+        <div className="flex items-center gap-2 text-zinc-200 font-medium justify-center sm:justify-start">
           <FaLocationDot />
           <h3>Camaçari, BA - Brasil</h3>
         </div>
       </div>
       {/* Quick action sentence */}
-      <span className="text-xs text-center text-zinc-300">
+      <span className="text-xs text-center text-zinc-300 sm:text-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea.
       </span>
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div className="flex flex-col justify-center items-center gap-6 sm:items-start">
         {/* Download resume button */}
         <button className="flex gap-2 items-center px-4 py-1 rounded-md border border-zinc-200 bg-zinc-800">
           <FaFileDownload />
