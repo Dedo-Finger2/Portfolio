@@ -1,12 +1,12 @@
-import SkillGroupItems from "./SkillGroupItems";
-import SkillGroupSection from "./SkillGroupSection";
-import SkillGroupTitle from "./SkillGroupTitle";
-import SkillItem from "./SkillItem";
+import { RightSection } from "../Section";
+import SkillGroupItems from "../SkillGroupItems";
+import SkillGroupSection from "../SkillGroupSection";
+import SkillGroupTitle from "../SkillGroupTitle";
+import SkillItem from "../SkillItem";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col gap-4">
-      <h1 className="text-2xl font-bold">Skills</h1>
+    <RightSection title="Skills">
       <SkillGroupSection>
         <SkillGroupTitle>Linguagens de programação</SkillGroupTitle>
         <SkillGroupItems>
@@ -117,6 +117,6 @@ export default function Skills() {
           </SkillItem>
         </SkillGroupItems>
       </SkillGroupSection>
-    </div>
+    </RightSection>
   );
 }
