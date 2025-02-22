@@ -1,3 +1,4 @@
+import { RightSection } from "./components/Section";
 import EducationCard from "./components/EducationCard";
 import Educations from "./components/Educations";
 import ExperienceCard from "./components/ExperienceCard";
@@ -15,8 +16,7 @@ export default function App() {
       {/* Right Side (Large info) */}
       <div className="flex flex-col gap-12">
         {/* About me */}
-        <div className="flex flex-col gap-4">
-          <h1 className="text-2xl font-bold">Sobre mim</h1>
+        <RightSection title="Sobre Mim">
           <p className="text-zinc-200 text-sm/6">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi
             hic impedit inventore soluta saepe modi assumenda alias neque
@@ -25,7 +25,7 @@ export default function App() {
             Mollitia, modi. Laudantium impedit aliquid molestias illo fuga,
             ratione facere doloribus quis cumque enim repellendus totam quod.
           </p>
-        </div>
+        </RightSection>
         {/* Skills */}
         <Skills />
         {/* Education */}
