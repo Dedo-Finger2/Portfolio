@@ -31,6 +31,7 @@ interface SkillItemProps {
   color: keyof typeof colors;
   alert?: boolean;
   delay?: number;
+  logo?: string;
 }
 
 export default function SkillItem({
@@ -38,17 +39,27 @@ export default function SkillItem({
   color,
   alert,
   delay,
+  logo,
 }: SkillItemProps) {
   return (
     <motion.span
       initial={{ opacity: 0, filter: "blur(10px)", x: -100 }}
-      animate={{ opacity: 1, filter: "none", x: 0 }}
-      transition={{ delay: delay }}
+      animate={{
+        opacity: 1,
+        filter: "none",
+        x: 0,
+        transition: { delay: delay },
+      }}
+      whileHover={{ rotate: 4, scale: 1.2, z: 2, marginLeft: 10 }}
       className={`${alert ? "relative" : ""} ${
         colors[color] || "bg-gray-400/40 text-gray-300"
-      } rounded-full px-4 py-0.5 text-xs font-semibold`}
+      } rounded-full px-4 py-0.5 text-xs font-semibold select-none group relative`}
     >
       {alert ? <SkillAlert /> : ""}
+      <img
+        className="size-10 hidden absolute group-hover:block left-1/2 transform -translate-x-1/2 bottom-6"
+        src={logo || "https://i.redd.it/84dlu7tahkva1.jpg"}
+      />
       {children}
     </motion.span>
   );
