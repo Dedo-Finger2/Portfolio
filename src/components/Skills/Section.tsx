@@ -12,10 +12,16 @@ export default function Skills() {
       <SkillGroupSection>
         <SkillGroupTitle>Linguagens de programação</SkillGroupTitle>
         <SkillGroupItems>
-          <SkillItem color="blue">JavaScript</SkillItem>
-          <SkillItem color="blue">TypeScript</SkillItem>
-          <SkillItem color="blue">Python</SkillItem>
-          <SkillItem color="blue" alert>
+          <SkillItem color="blue" delay={0.2}>
+            JavaScript
+          </SkillItem>
+          <SkillItem color="blue" delay={0.4}>
+            TypeScript
+          </SkillItem>
+          <SkillItem color="blue" delay={0.6}>
+            Python
+          </SkillItem>
+          <SkillItem color="blue" delay={0.8} alert>
             Golang
           </SkillItem>
         </SkillGroupItems>
@@ -24,12 +30,22 @@ export default function Skills() {
       <SkillGroupSection>
         <SkillGroupTitle>Frameworks</SkillGroupTitle>
         <SkillGroupItems>
-          <SkillItem color="emerald">NextJs</SkillItem>
-          <SkillItem color="emerald">ReactJs</SkillItem>
-          <SkillItem color="emerald">ExpressJs</SkillItem>
-          <SkillItem color="emerald">HonoJs</SkillItem>
-          <SkillItem color="emerald">Fastify</SkillItem>
-          <SkillItem color="emerald" alert>
+          <SkillItem color="emerald" delay={0.2}>
+            NextJs
+          </SkillItem>
+          <SkillItem color="emerald" delay={0.4}>
+            ReactJs
+          </SkillItem>
+          <SkillItem color="emerald" delay={0.6}>
+            ExpressJs
+          </SkillItem>
+          <SkillItem color="emerald" delay={0.8}>
+            HonoJs
+          </SkillItem>
+          <SkillItem color="emerald" delay={1}>
+            Fastify
+          </SkillItem>
+          <SkillItem color="emerald" delay={1.2} alert>
             NestJs
           </SkillItem>
         </SkillGroupItems>
@@ -38,10 +54,16 @@ export default function Skills() {
       <SkillGroupSection>
         <SkillGroupTitle>Backend</SkillGroupTitle>
         <SkillGroupItems>
-          <SkillItem color="violet">NodeJs</SkillItem>
-          <SkillItem color="violet">Deno</SkillItem>
-          <SkillItem color="violet">API Rest</SkillItem>
-          <SkillItem color="violet" alert>
+          <SkillItem color="violet" delay={0.2}>
+            NodeJs
+          </SkillItem>
+          <SkillItem color="violet" delay={0.4}>
+            Deno
+          </SkillItem>
+          <SkillItem color="violet" delay={0.6}>
+            API Rest
+          </SkillItem>
+          <SkillItem color="violet" delay={0.8} alert>
             GraphQl
           </SkillItem>
         </SkillGroupItems>
@@ -50,12 +72,22 @@ export default function Skills() {
       <SkillGroupSection>
         <SkillGroupTitle>Frontend</SkillGroupTitle>
         <SkillGroupItems>
-          <SkillItem color="pink">HTML</SkillItem>
-          <SkillItem color="pink">CSS</SkillItem>
-          <SkillItem color="pink">TailwindCSS</SkillItem>
-          <SkillItem color="pink">Shadcn/UI</SkillItem>
-          <SkillItem color="pink">Figma</SkillItem>
-          <SkillItem color="pink" alert>
+          <SkillItem color="pink" delay={0.2}>
+            HTML
+          </SkillItem>
+          <SkillItem color="pink" delay={0.4}>
+            CSS
+          </SkillItem>
+          <SkillItem color="pink" delay={0.6}>
+            TailwindCSS
+          </SkillItem>
+          <SkillItem color="pink" delay={0.8}>
+            Shadcn/UI
+          </SkillItem>
+          <SkillItem color="pink" delay={1}>
+            Figma
+          </SkillItem>
+          <SkillItem color="pink" delay={1.2} alert>
             Framer Motion
           </SkillItem>
         </SkillGroupItems>
@@ -64,9 +96,13 @@ export default function Skills() {
       <SkillGroupSection>
         <SkillGroupTitle>Bancos de dados</SkillGroupTitle>
         <SkillGroupItems>
-          <SkillItem color="orange">PostgresSQL</SkillItem>
-          <SkillItem color="orange">SQL</SkillItem>
-          <SkillItem color="orange" alert>
+          <SkillItem color="orange" delay={0.2}>
+            PostgresSQL
+          </SkillItem>
+          <SkillItem color="orange" delay={0.4}>
+            SQL
+          </SkillItem>
+          <SkillItem color="orange" delay={0.6} alert>
             MongoDB
           </SkillItem>
         </SkillGroupItems>
