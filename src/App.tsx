@@ -11,7 +11,7 @@ export default function App() {
       {/* Left Side (Quick info) */}
       <QuickAboutMe />
       {/* Right Side (Large info) */}
-      <div className="flex flex-col gap-12 overflow-x-hidden xl:overflow-y-scroll">
+      <div className="flex flex-col gap-12 overflow-x-hidden xl:overflow-y-scroll xl:scrollbar-thin xl:scrollbar-thumb-zinc-700 xl:scrollbar-track-zinc-900">
         {/* About me */}
         <AboutSection />
         {/* Skills */}
