@@ -81,14 +81,16 @@ export default function QuickAboutMe() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ bounce: 0, delay: 1.1 }}
         >
-          <motion.button
+          <motion.a
+            href="./../assets/pdf/cv-final.pdf"
+            download="cv.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1 }}
             className="flex gap-2 items-center px-4 py-1 rounded-md border border-zinc-200 bg-zinc-800 hover:cursor-pointer"
           >
             <FaFileDownload />
             Currículo
-          </motion.button>
+          </motion.a>
         </motion.div>
         {/* Social media */}
         <div className="flex gap-4 text-zinc-300">
