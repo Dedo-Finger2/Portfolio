@@ -9,12 +9,14 @@ import javascriptLogo from "./../../assets/images/tech/javascript-logo.png";
 import typescriptLogo from "./../../assets/images/tech/typescript-logo.png";
 import pythonLogo from "./../../assets/images/tech/python-logo.png";
 import goLogo from "./../../assets/images/tech/golang-logo.png";
+import phpLogo from "./../../assets/images/tech/php-logo.png";
 import nextjsLogo from "./../../assets/images/tech/nextjs-logo.png";
 import reactjsLogo from "./../../assets/images/tech/reactjs-logo.png";
 import expressjsLogo from "./../../assets/images/tech/expressjs-logo.png";
 import honojsLogo from "./../../assets/images/tech/honojs-logo.png";
 import fastifyjsLogo from "./../../assets/images/tech/fastifyjs-logo.png";
 import nestjsLogo from "./../../assets/images/tech/nestjs-logo.png";
+import laravelLogo from "./../../assets/images/tech/laravel-logo.png";
 import nodejsLogo from "./../../assets/images/tech/nodejs-logo.png";
 import denoLogo from "./../../assets/images/tech/deno-logo.png";
 import apirestLogo from "./../../assets/images/tech/apirest-logo.png";
@@ -45,7 +47,10 @@ export default function Skills() {
           <SkillItem color="blue" delay={0.6} logo={pythonLogo}>
             Python
           </SkillItem>
-          <SkillItem color="blue" delay={0.8} logo={goLogo} alert>
+          <SkillItem color="blue" delay={0.8} logo={phpLogo} alert>
+            PHP
+          </SkillItem>
+          <SkillItem color="blue" delay={1} logo={goLogo} alert>
             Golang
           </SkillItem>
         </SkillGroupItems>
@@ -69,7 +74,10 @@ export default function Skills() {
           <SkillItem color="emerald" delay={1} logo={fastifyjsLogo}>
             Fastify
           </SkillItem>
-          <SkillItem color="emerald" delay={1.2} logo={nestjsLogo} alert>
+          <SkillItem color="emerald" delay={1.2} logo={laravelLogo} alert>
+            Laravel
+          </SkillItem>
+          <SkillItem color="emerald" delay={1.4} logo={nestjsLogo} alert>
             NestJs
           </SkillItem>
         </SkillGroupItems>
