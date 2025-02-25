@@ -9,7 +9,7 @@ export default function Title({ children }: Props) {
   return (
     <motion.h1
       initial={{ opacity: 0, x: -400 }}
-      animate={{ opacity: 1, x: 0 }}
+      whileInView={{ opacity: 1, x: 0 }}
       className="text-2xl font-bold"
     >
       {children}
