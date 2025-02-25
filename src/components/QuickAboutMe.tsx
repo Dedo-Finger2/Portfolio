@@ -90,46 +90,54 @@ export default function QuickAboutMe() {
         </motion.div>
         {/* Social media */}
         <div className="flex gap-4 text-zinc-300">
-          <motion.div
+          <motion.a
+            href="https://github.com/Dedo-Finger2"
+            target="_blank"
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ bounce: 0, delay: 1.2 }}
           >
             <FaGithub
-              className="hover:scale-125 transition-transform ease-in-out"
+              className="hover:scale-125 transition-transform ease-in-out cursor-pointer"
               size={20}
             />
-          </motion.div>
-          <motion.div
+          </motion.a>
+          <motion.a
+            href="https://linkedin.com/in/antonio-mauricio-4645832b3"
+            target="_blank"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ bounce: 0, delay: 1.4 }}
           >
             <FaLinkedin
-              className="hover:scale-125 transition-transform ease-in-out"
+              className="hover:scale-125 transition-transform ease-in-out cursor-pointer"
               size={20}
             />
-          </motion.div>
-          <motion.div
+          </motion.a>
+          <motion.a
+            href="https://instagram.com/antonioalmeida2003/"
+            target="_blank"
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ bounce: 0, delay: 1.6 }}
           >
             <FaInstagram
-              className="hover:scale-125 transition-transform ease-in-out"
+              className="hover:scale-125 transition-transform ease-in-out cursor-pointer"
               size={20}
             />
-          </motion.div>
-          <motion.div
+          </motion.a>
+          <motion.a
+            href="mailto:antonioimportant@gmail.com?subject=Visualização do portolio"
+            target="_blank"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ bounce: 0, delay: 1.8 }}
           >
             <IoMail
-              className="hover:scale-125 transition-transform ease-in-out"
+              className="hover:scale-125 transition-transform ease-in-out cursor-pointer"
               size={20}
             />
-          </motion.div>
+          </motion.a>
         </div>
       </div>
     </div>
