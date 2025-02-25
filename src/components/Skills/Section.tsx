@@ -34,6 +34,7 @@ import githubLogo from "./../../assets/images/tech/github-logo.png";
 import gitLogo from "./../../assets/images/tech/git-logo.png";
 import dockerLogo from "./../../assets/images/tech/docker-logo.png";
 import linuxLogo from "./../../assets/images/tech/linux-logo.png";
+import chatgptLogo from "./../../assets/images/tech/chatgpt-logo.png";
 
 export default function Skills() {
   return (
@@ -158,6 +159,9 @@ export default function Skills() {
           </SkillItem>
           <SkillItem color="lime" delay={0.8} alert logo={linuxLogo}>
             Linux
+          </SkillItem>
+          <SkillItem color="lime" delay={1} alert logo={chatgptLogo}>
+            Engenharia de Prompt
           </SkillItem>
         </SkillGroupItems>
       </SkillGroupSection>
