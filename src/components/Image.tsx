@@ -1,10 +1,12 @@
-type Props = React.ImgHTMLAttributes<HTMLImageElement>;
+type Props = React.ImgHTMLAttributes<HTMLImageElement> & { shape?: ImageShape };
 
-export default function Image(props: Props) {
+type ImageShape = "square" | "circle";
+
+export default function Image({ shape, ...props }: Props) {
   return (
     <img
       {...props}
-      className="lex h-20 object-cover rounded-md shadow-md sm:rounded-full sm:self-start sm:h-25"
+      className={`flex h-20 object-cover rounded-md shadow-md ${shape === "square" ? "sm:rounded-sm sm:h-40" : "sm:rounded-full"} sm:self-start sm:h-25`}
     />
   );
 }

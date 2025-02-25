@@ -20,7 +20,7 @@ export default function Section() {
     <RightSection>
       <RightSectionTitle>Projetos</RightSectionTitle>
       <Card>
-        <Image src="https://picsum.photos/200" />
+        <Image shape="square" src="https://picsum.photos/200" />
 
         <CardInfo>
           <CardHeader>
