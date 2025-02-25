@@ -43,8 +43,8 @@ export default function SkillItem({
 }: SkillItemProps) {
   return (
     <motion.span
-      initial={{ opacity: 0, filter: "blur(10px)", x: -100 }}
-      animate={{
+      initial={{ opacity: 0, filter: "blur(10px)", x: -50 }}
+      whileInView={{
         opacity: 1,
         filter: "none",
         x: 0,
