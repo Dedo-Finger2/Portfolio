@@ -70,7 +70,9 @@ export default function QuickAboutMe() {
         transition={{ bounce: 0, delay: 1.2 }}
         className="text-xs text-center text-zinc-300 sm:text-left"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ea.
+        Resolvendo problemas únicos com código{" "}
+        <span className="font-bold">eficiente</span> e{" "}
+        <span className="font-bold">criativo</span>
       </motion.span>
       <div className="flex flex-col justify-center items-center gap-6 sm:items-start">
         {/* Download resume button */}
