@@ -30,6 +30,10 @@ import motionLogo from "./../../assets/images/tech/motion-logo.png";
 import postgresLogo from "./../../assets/images/tech/postgres-logo.png";
 import sqlLogo from "./../../assets/images/tech/sql-logo.png";
 import mongoLogo from "./../../assets/images/tech/mongo-logo.png";
+import githubLogo from "./../../assets/images/tech/github-logo.png";
+import gitLogo from "./../../assets/images/tech/git-logo.png";
+import dockerLogo from "./../../assets/images/tech/docker-logo.png";
+import linuxLogo from "./../../assets/images/tech/linux-logo.png";
 
 export default function Skills() {
   return (
@@ -136,6 +140,24 @@ export default function Skills() {
           </SkillItem>
           <SkillItem color="orange" delay={0.6} alert logo={mongoLogo}>
             MongoDB
+          </SkillItem>
+        </SkillGroupItems>
+      </SkillGroupSection>
+
+      <SkillGroupSection>
+        <SkillGroupTitle>Outros</SkillGroupTitle>
+        <SkillGroupItems>
+          <SkillItem color="lime" delay={0.2} logo={githubLogo}>
+            Github
+          </SkillItem>
+          <SkillItem color="lime" delay={0.4} logo={gitLogo}>
+            Git
+          </SkillItem>
+          <SkillItem color="lime" delay={0.6} alert logo={dockerLogo}>
+            Docker
+          </SkillItem>
+          <SkillItem color="lime" delay={0.8} alert logo={linuxLogo}>
+            Linux
           </SkillItem>
         </SkillGroupItems>
       </SkillGroupSection>
