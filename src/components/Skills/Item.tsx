@@ -57,7 +57,7 @@ export default function SkillItem({
     >
       {alert ? <SkillAlert /> : ""}
       <img
-        className="size-10 hidden absolute group-hover:block left-1/2 transform -translate-x-1/2 bottom-6"
+        className="size-10 hidden absolute group-hover:block left-1/2 transform -translate-x-1/2 bottom-6 rounded-lg"
         src={logo || "https://i.redd.it/84dlu7tahkva1.jpg"}
       />
       {children}
