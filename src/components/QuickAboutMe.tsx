@@ -59,7 +59,7 @@ export default function QuickAboutMe() {
             animate={{ opacity: 1, y: 0, filter: "none" }}
             transition={{ bounce: 0, delay: 0.8 }}
           >
-            Camaçari, BA - Brasil
+            Camaçari, Bahia - Brasil
           </motion.h3>
         </div>
       </div>
